@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:400,700|Montserrat&display=swap');
+@import '~bootstrap/scss/bootstrap.scss';
+
+$primaryColor: #924400;
+$darkColor: black;
+$backgroundColor: white;
+
+$darkerText: #3d3d3d;
+$textColor: black;
+
+/****************************** Fonts ******************************/
+
+.title-font {
+  font-family: Domine, serif;
+  font-weight: 700;
+}
+
+.heading-font {
+  font-family: Domine, serif;
+  font-weight: 400;
+}
+
+.body-font {
+  font-family: Montserrat, sans-serif;
+}
+
+/****************************** Positioning ******************************/
+
+.fix-to-bottom {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 0;
+}
+
+.fix-to-top {
+  position: fixed;
+  top: 0;
+  margin-top: 0;
+}
+
+.fix-to-left {
+  position: fixed;
+  left: 0;
+  margin-left: 0;
+}
+
+.fix-to-right {
+  position: fixed;
+  right: 0;
+  margin-right: 0;
+}
+
+.jcj-full-page {
+  @extend .fix-to-top;
+  @extend .fix-to-bottom;
+}
+
+/****************************** Fonts ******************************/
+

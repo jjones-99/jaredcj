@@ -1,0 +1,28 @@
+@import "src/styles";
+
+#jcj-big-name {
+  @extend .title-font;
+  font-size: 7em;
+  margin-left: 5vw;
+  margin-top: 30vh;
+
+  @include media-breakpoint-up(md) {
+    margin-left: 50vw;
+  }
+}
+
+.jcj-full-page {
+  background-color: white;
+
+  @include media-breakpoint-up(md) {
+    background-image: url("../../assets/Sculpture.png");
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+    background-position-y: bottom;
+    background-position-x: 20%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    background-position-x: 30%;
+  }
+}

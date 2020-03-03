@@ -1,0 +1,28 @@
+@import "src/styles";
+
+.jcj-button {
+  @extend .body-font;
+  padding: 10px 25px;
+  margin: 10px;
+  background-color: $backgroundColor;
+  color: $textColor;
+  border-width: 2px;
+  border-color: $darkColor;
+  border-style: solid;
+  text-align: center;
+}
+
+.jcj-button:hover {
+  background-color: darken($backgroundColor, 30%);
+  color: darken($darkerText, 30%);
+  text-decoration: none;
+}
+
+.jcj-button-text {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+// The fa icons.
+.jcj-button svg {
+}
