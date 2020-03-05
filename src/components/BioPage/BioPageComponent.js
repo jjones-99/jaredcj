@@ -6,6 +6,7 @@ import ExperienceComponent from "./ExperienceComponent";
 import {Col, Row} from "react-bootstrap";
 import "./BioPageComponent.scss";
 import ExposureComponent from "./ExposureComponent";
+import ResumePDF from "../../assets/Resume.pdf";
 
 const BioPageComponent = () =>
     <div className={""}>
@@ -15,7 +16,7 @@ const BioPageComponent = () =>
             <Row className={"jcj-resume-row"}>
                 <Col md className={"jcj-resume-col jcj-resume-header"}>
                     <h2 className={"jcj-resume-title"}>RESUME</h2>
-                    <JCJButton link={"#"} text={"Download my resume. (80 KB)"}/>
+                    <JCJButton link={ResumePDF} new_tab text={"View my resume. (104 KB)"}/>
                 </Col>
                 <Col md className={"jcj-resume-col"}>
                     <section className={"jcj-resume-section"}>

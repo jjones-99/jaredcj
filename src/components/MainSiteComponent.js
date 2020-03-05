@@ -7,7 +7,7 @@ import "../styles.scss";
 
 const MainSiteComponent = () =>
     <div>
-        <BrowserRouter>
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Switch>
                 <Route path={"/"}
                        exact={true}>

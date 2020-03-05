@@ -12,7 +12,7 @@ const ProjectPageComponent = () =>
             <Row className={"jcj-projects-row"}>
                 <Col md className={"jcj-projects-col jcj-projects-header"}>
                     <h2 className={"jcj-projects-title"}>PROJECTS</h2>
-                    <JCJButton link={"https://github.com/jjones-99"} new_tab={true} text={"Visit my GitHub."}/>
+                    <JCJButton link={"https://github.com/jjones-99"} new_tab text={"Visit my GitHub."}/>
                 </Col>
                 <Col md className={"jcj-projects-col"}>
                     <section className={"jcj-projects-section"}>
@@ -44,7 +44,7 @@ const ProjectPageComponent = () =>
                             to take the opportunity to get more experience with technologies I'm more likely to
                             use in the future.
                         </p>
-                        <JCJButton link={"https://github.com/jjones-99/jaredcj"} new_tab={true}
+                        <JCJButton link={"https://github.com/jjones-99/jaredcj"} new_tab
                                    text={"View the code."}/>
                     </section>
                 </Col>
@@ -73,7 +73,7 @@ const ProjectPageComponent = () =>
                             This was a really great exercise in creativity, working as a group, and learning how
                             to use the tools we had as we progressed.
                         </p>
-                        <JCJButton link={"https://github.com/jjones-99/TetrisSurvival"} new_tab={true}
+                        <JCJButton link={"https://github.com/jjones-99/TetrisSurvival"} new_tab
                                    text={"View the code."}/>
                     </section>
                 </Col>
