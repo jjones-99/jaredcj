@@ -1,7 +1,6 @@
 import React from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faChevronDown, faChevronLeft, faChevronRight, faChevronUp} from "@fortawesome/free-solid-svg-icons";
-import {Link} from "react-router-dom";
 import "./JCJButton.scss";
 
 const getIconForDirection = (direction) => {
@@ -19,11 +18,12 @@ const getIconForDirection = (direction) => {
     }
 };
 
-const JCJButton = ({link = "#", text, direction = "none"}) =>
-    <Link to={link} className={"jcj-button d-flex justify-content-between align-items-center"}>
+const JCJButton = ({link = "#", new_tab, text, direction = "none"}) =>
+    <a href={link} className={"jcj-button d-flex justify-content-between align-items-center"}
+       target={new_tab ? "_blank" : "_self"} rel={"noopener noreferrer"}>
         <span>{getIconForDirection(direction)}</span>
         <span className={"jcj-button-text"}>{text}</span>
         <span>{getIconForDirection(direction)}</span>
-    </Link>;
+    </a>;
 
 export default JCJButton;

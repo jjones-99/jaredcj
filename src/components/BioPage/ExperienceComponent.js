@@ -22,8 +22,8 @@ const ExperienceComponent = () =>
                 </li>
                 <li>
                     Participated in a partnership with Victoria University to develop a
-                    <a href="https://ducttaped.co/" target={"_blank"}
-                       rel={"noreferrer noopener"}> publication </a>
+                    <a href="https://ducttaped.co/" target="_blank"
+                       rel="noreferrer noopener"> publication </a>
                     showcasing Victorian founders by supporting the designer in developing the online blog.
                 </li>
                 <li>

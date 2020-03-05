@@ -16,13 +16,10 @@
 
 .jcj-resume-row {
   display: flex;
-  margin-top: 10vh;
+  margin-top: 5vh;
   margin-right: 0 !important;
   margin-left: 0 !important;
-
-  &:first-child {
-    margin-top: 5vh;
-  }
+  margin-bottom: 10vh;
 }
 
 .jcj-resume-col {
@@ -42,6 +39,10 @@
 
 .jcj-resume-section {
   padding: 0 50px;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 5vh;
+  }
 }
 
 .jcj-resume-job-location,

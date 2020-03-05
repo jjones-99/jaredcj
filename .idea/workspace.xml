@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c62ca2ae-de92-4418-9207-917843374389" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BioPage/EducationComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BioPage/ExperienceComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BioPage/ExposureComponent.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/custom-blocks/NavbarComponent.scss" afterDir="false" />
+    <list default="true" id="c62ca2ae-de92-4418-9207-917843374389" name="Default Changelist" comment="Created projects page.">
+      <change afterPath="$PROJECT_DIR$/src/assets/PersonalWebsite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Tetris.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HomePageComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HomePageComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BioPage/ExperienceComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/ExperienceComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/custom-blocks/JCJButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-blocks/JCJButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/custom-blocks/NavbarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-blocks/NavbarComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/custom-blocks" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/ProjectPage" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,12 +55,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/ProjectPage" />
       <recent name="$PROJECT_DIR$/src/components/custom-blocks" />
       <recent name="$PROJECT_DIR$/src/components/BioPage" />
       <recent name="$PROJECT_DIR$/src/reducers" />
       <recent name="$PROJECT_DIR$/src/actions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src/components/ProjectPage" />
       <recent name="$PROJECT_DIR$/src/components/HomePage" />
       <recent name="$PROJECT_DIR$/src/components/BioPage" />
@@ -83,7 +86,7 @@
       <workItem from="1581880068995" duration="7726000" />
       <workItem from="1582306131905" duration="86000" />
       <workItem from="1583266083820" duration="7698000" />
-      <workItem from="1583426797523" duration="4900000" />
+      <workItem from="1583426797523" duration="10089000" />
     </task>
     <task id="LOCAL-00001" summary="Outlined some quick components.">
       <created>1581540810286</created>
@@ -99,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583271984398</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished home and resume.">
+      <created>1583432777594</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583432777594</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,7 +118,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Outlined some quick components." />
     <MESSAGE value="Changed style to molten gold." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed style to molten gold." />
+    <MESSAGE value="Finished home and resume." />
+    <MESSAGE value="Created projects page." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created projects page." />
   </component>
   <component name="WindowStateProjectService">
     <state x="443" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581539727353">
@@ -119,10 +131,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1583270211154" />
-    <state x="219" y="62" key="CommitChangelistDialog2" timestamp="1583271983716">
+    <state x="219" y="62" key="CommitChangelistDialog2" timestamp="1583437935974">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="219" y="62" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583271983716" />
+    <state x="219" y="62" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583437935974" />
     <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1581540812544">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
