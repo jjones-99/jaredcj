@@ -69,9 +69,9 @@
 }
 
 .jcj-resume-exposure-list {
-  columns: 2;
-  //list-style: none;
-  //padding: 0;
+  @include media-breakpoint-up(md) {
+    columns: 2;
+  }
 }
 
 .jcj-resume-mainline {

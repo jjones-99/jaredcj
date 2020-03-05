@@ -2,12 +2,13 @@
 
 #jcj-big-name {
   @extend .title-font;
-  font-size: 7em;
+  font-size: 5em;
   margin-left: 5vw;
   margin-top: 30vh;
 
   @include media-breakpoint-up(md) {
     margin-left: 50vw;
+    font-size: 7em;
   }
 }
 
