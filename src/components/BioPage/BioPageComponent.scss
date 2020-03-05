@@ -77,3 +77,10 @@
 .jcj-resume-mainline {
   font-weight: bold;
 }
+
+.jcj-resume-image {
+  @include media-breakpoint-down(md) {
+    max-width: 80vw;
+    height: auto;
+  }
+}

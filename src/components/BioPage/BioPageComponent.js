@@ -50,14 +50,14 @@ const BioPageComponent = () =>
                 <Col md><ExperienceComponent/></Col>
                 <Col md className={"jcj-resume-col order-first order-md-last"}>
                     <img src={require("../../assets/Splat.png")} alt=""
-                         className={"mr-md-4 jcj-bio-image-right"} height={"500px"}/>
+                         className={"mr-md-4 jcj-resume-image"} height={"500px"}/>
                 </Col>
             </Row>
 
             <Row className={"jcj-resume-row"}>
                 <Col md className={"jcj-resume-col"}>
                     <img src={require("../../assets/Stretch.png")} alt=""
-                         className={"ml-md-4 jcj-bio-image-left"} height={"350px"}/>
+                         className={"ml-md-4 jcj-resume-image"} height={"350px"}/>
                 </Col>
                 <Col md className={"jcj-resume-col"}><EducationComponent/></Col>
             </Row>
@@ -66,7 +66,7 @@ const BioPageComponent = () =>
                 <Col md><ExposureComponent/></Col>
                 <Col md className={"jcj-resume-col order-first order-md-last"}>
                     <img src={require("../../assets/Avocado.png")} alt=""
-                         className={"mr-md-4 jcj-bio-image-right"} height={"300px"}/>
+                         className={"mr-md-4 jcj-resume-image"} height={"300px"}/>
                 </Col>
             </Row>
         </article>
