@@ -24,36 +24,47 @@ $textColor: black;
   font-family: Montserrat, sans-serif;
 }
 
+* {
+  @extend .body-font;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .heading-font;
+}
+
 /****************************** Positioning ******************************/
 
 .fix-to-bottom {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   margin-bottom: 0;
 }
 
 .fix-to-top {
-  position: fixed;
+  position: absolute;
   top: 0;
   margin-top: 0;
 }
 
 .fix-to-left {
-  position: fixed;
+  position: absolute;
   left: 0;
   margin-left: 0;
 }
 
 .fix-to-right {
-  position: fixed;
+  position: absolute;
   right: 0;
   margin-right: 0;
 }
 
-.jcj-full-page {
+.jcj-full-height {
   @extend .fix-to-top;
   @extend .fix-to-bottom;
 }
 
-/****************************** Fonts ******************************/
+.jcj-full-page {
+  @extend .jcj-full-height;
+  position: fixed;
+}
 

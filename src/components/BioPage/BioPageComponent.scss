@@ -1,0 +1,74 @@
+@import "src/styles";
+
+
+.jcj-resume-header {
+
+  @include media-breakpoint-down(md) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.jcj-resume-title {
+  @extend .title-font;
+  font-size: 4.5em;
+}
+
+.jcj-resume-row {
+  display: flex;
+  margin-top: 10vh;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+
+  &:first-child {
+    margin-top: 5vh;
+  }
+}
+
+.jcj-resume-col {
+  @extend .d-flex;
+  @extend .flex-column;
+  @extend .justify-content-center;
+  @extend .align-items-center;
+
+  margin-bottom: 10vh;
+  margin-top: 10vh;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.jcj-resume-section {
+  padding: 0 50px;
+}
+
+.jcj-resume-job-location,
+.jcj-resume-school-location {
+  font-style: italic;
+}
+
+.jcj-resume-job-title {
+  font-weight: bold;
+}
+
+.jcj-resume-school-subgroup {
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.jcj-resume-school-degree {
+  font-style: italic;
+}
+
+.jcj-resume-school-degree-date {
+  margin-bottom: 1rem;
+}
+
+.jcj-resume-exposure-list {
+  columns: 2;
+  list-style: none;
+  padding: 0;
+}
