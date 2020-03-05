@@ -4,6 +4,11 @@ const ExposureComponent = () =>
     <section className={"jcj-resume-section"}>
         <h3>MY EXPOSURE</h3>
         <section>
+            <p>
+                Through the coursework and projects that I've completed, I've gotten a lot of exposure to
+                quite a few technologies. Most importantly, I learned the most about these topics independently
+                in order to improve the quality of my work.
+            </p>
             <ul className={"jcj-resume-exposure-list"}>
                 <li>Java</li>
                 <li>C</li>

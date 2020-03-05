@@ -18,16 +18,23 @@ const EducationComponent = () =>
                         </span>
                 <span className="jcj-resume-school-degree-date">Exp. May 2020</span>
             </div>
+            <p>
+                <span className={"jcj-resume-mainline"}>Honors: </span> GPA 3.98/4.0, Dean's List, National Merit
+                Scholar, Honors Program
+            </p>
+            <p className={"jcj-resume-mainline"}>Classes:</p>
             <ul className="jcj-resume-school-bullets">
-                <li>
-                    Performed opening and closing duties across the nine-hole course and in the office.
-                </li>
-                <li>
-                    Registered customers in a Google spreadsheet while serving as a cashier.
-                </li>
-                <li>
-                    Recorded reservations made through phone calls and in person.
-                </li>
+                <li>Web Development</li>
+                <li>Software Development</li>
+                <li>Object-Oriented Design</li>
+                <li>Computer Systems</li>
+                <li>Networks and Distributed Systems</li>
+                <li>Theory of Computation</li>
+                <li>Algorithms (Graduate Level)</li>
+                <li>Programming Languages</li>
+                <li>Programming in C++</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning and Artificial Intelligence</li>
             </ul>
         </section>
     </section>;

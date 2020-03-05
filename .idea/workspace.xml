@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c62ca2ae-de92-4418-9207-917843374389" name="Default Changelist" comment="Created projects page.">
-      <change afterPath="$PROJECT_DIR$/src/assets/PersonalWebsite.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Tetris.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.scss" afterDir="false" />
+    <list default="true" id="c62ca2ae-de92-4418-9207-917843374389" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/PersonalWebsite.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/PersonalWebsite.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/BioPageComponent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BioPage/ExperienceComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/ExperienceComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProjectPage/ProjectPageComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-blocks/JCJButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-blocks/JCJButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/custom-blocks/NavbarComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/custom-blocks/NavbarComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BioPage/EducationComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/EducationComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BioPage/ExposureComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BioPage/ExposureComponent.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,7 @@
       <workItem from="1581880068995" duration="7726000" />
       <workItem from="1582306131905" duration="86000" />
       <workItem from="1583266083820" duration="7698000" />
-      <workItem from="1583426797523" duration="10089000" />
+      <workItem from="1583426797523" duration="10851000" />
     </task>
     <task id="LOCAL-00001" summary="Outlined some quick components.">
       <created>1581540810286</created>
@@ -109,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583432777594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created projects page.">
+      <created>1583437975262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583437975262</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,18 +127,18 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="443" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1581539727353" />
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583270211154">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583438827107">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1583270211154" />
-    <state x="219" y="62" key="CommitChangelistDialog2" timestamp="1583437935974">
+    <state x="458" y="215" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1583438827107" />
+    <state x="219" y="62" key="CommitChangelistDialog2" timestamp="1583437974654">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="219" y="62" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583437935974" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1581540812544">
+    <state x="219" y="62" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1583437974654" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1583437978040">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1581540812544" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1583437978040" />
     <state x="383" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1581884103876">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
