@@ -4,7 +4,7 @@ import "./NavbarComponent.scss"
 import {FaGithub, FaLinkedin} from "react-icons/all";
 
 const NavbarComponent = ({page}) =>
-    <Navbar>
+    <Navbar expand={"md"}>
         <Navbar.Brand href={"/"}>Jared Jones</Navbar.Brand>
         <Navbar.Toggle aria-controls="jcj-navbar"/>
         <Navbar.Collapse id="jcj-navbar">
