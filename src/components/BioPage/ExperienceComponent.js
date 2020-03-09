@@ -43,7 +43,7 @@ const ExperienceComponent = () =>
         <section>
             <div className={"d-flex justify-content-between flex-wrap"}>
                 <div>
-                    <h4 className={"jcj-resume-job-company"}>Outlaw Golf Course</h4>
+                    <h4 className={"jcj-resume-job-company"}>Outlaw Golf Club</h4>
                     <span className="jcj-resume-job-location">Hideout, UT</span>
                 </div>
                 <p className="jcj-resume-job-dates">Jun 2017 - Aug 2017</p>
