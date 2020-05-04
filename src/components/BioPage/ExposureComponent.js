@@ -18,11 +18,13 @@ const ExposureComponent = () => (
         <li>Node.js</li>
         <li>MySQL</li>
         <li>MongoDB</li>
+        <li>RESTful APIs</li>
         <li>WordPress</li>
 
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
+        <li>Bootstrap</li>
         <li>Java</li>
         <li>C++</li>
         <li>C</li>
