@@ -16,7 +16,7 @@ const EducationComponent = () => (
       </p>
       <div className={"d-flex justify-content-between flex-wrap"}>
         <span className={"jcj-resume-school-degree"}>
-          Candidate for a Bachelor of Science in Computer Science
+          Bachelor of Science in Computer Science
         </span>
         <span className="jcj-resume-school-degree-date">May 2020</span>
       </div>
