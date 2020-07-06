@@ -1,30 +1,32 @@
 {
   "files": {
     "main.css": "/static/css/main.4bf0399b.chunk.css",
-    "main.js": "/static/js/main.60615919.chunk.js",
-    "main.js.map": "/static/js/main.60615919.chunk.js.map",
+    "main.js": "/static/js/main.9b6b9d66.chunk.js",
+    "main.js.map": "/static/js/main.9b6b9d66.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f67d2253.js",
     "runtime-main.js.map": "/static/js/runtime-main.f67d2253.js.map",
-    "static/js/2.7cd8061a.chunk.js": "/static/js/2.7cd8061a.chunk.js",
-    "static/js/2.7cd8061a.chunk.js.map": "/static/js/2.7cd8061a.chunk.js.map",
+    "static/js/2.c80c7b52.chunk.js": "/static/js/2.c80c7b52.chunk.js",
+    "static/js/2.c80c7b52.chunk.js.map": "/static/js/2.c80c7b52.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.9bfcd9eed3ff5d2b31846a270ff24e70.js": "/precache-manifest.9bfcd9eed3ff5d2b31846a270ff24e70.js",
+    "precache-manifest.799de7f95ed16e807e0db68ba3a7af3e.js": "/precache-manifest.799de7f95ed16e807e0db68ba3a7af3e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.4bf0399b.chunk.css.map": "/static/css/main.4bf0399b.chunk.css.map",
-    "static/js/2.7cd8061a.chunk.js.LICENSE.txt": "/static/js/2.7cd8061a.chunk.js.LICENSE.txt",
+    "static/js/2.c80c7b52.chunk.js.LICENSE.txt": "/static/js/2.c80c7b52.chunk.js.LICENSE.txt",
     "static/media/Avocado.png": "/static/media/Avocado.5c2fa882.png",
     "static/media/Chelicerae.png": "/static/media/Chelicerae.fcd336b6.png",
+    "static/media/DuctTapeHomepage.png": "/static/media/DuctTapeHomepage.49bdad79.png",
     "static/media/PersonalWebsite.png": "/static/media/PersonalWebsite.15096c39.png",
     "static/media/Resume050420.pdf": "/static/media/Resume050420.9039122b.pdf",
     "static/media/HomePageComponent.scss": "/static/media/Sculpture.0fb4547d.png",
     "static/media/Splat.png": "/static/media/Splat.c80ed4b2.png",
+    "static/media/StartupVicHomepage.png": "/static/media/StartupVicHomepage.c67118ec.png",
     "static/media/Stretch.png": "/static/media/Stretch.9d767e10.png",
     "static/media/Tetris.png": "/static/media/Tetris.4d196e17.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f67d2253.js",
-    "static/js/2.7cd8061a.chunk.js",
+    "static/js/2.c80c7b52.chunk.js",
     "static/css/main.4bf0399b.chunk.css",
-    "static/js/main.60615919.chunk.js"
+    "static/js/main.9b6b9d66.chunk.js"
   ]
 }
