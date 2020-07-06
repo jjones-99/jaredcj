@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6ac3058edab96b7713b9c949c83f1e60",
+    "revision": "800756bd10a223559cac975263797c90",
     "url": "/index.html"
   },
   {
-    "revision": "a5584ded2b6921a5239d",
+    "revision": "00fee61a114e84206c6f",
     "url": "/static/css/main.4bf0399b.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c80c7b52.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a5584ded2b6921a5239d",
-    "url": "/static/js/main.9b6b9d66.chunk.js"
+    "revision": "00fee61a114e84206c6f",
+    "url": "/static/js/main.e38a895d.chunk.js"
   },
   {
     "revision": "85d75a143a8d2dd10e0f",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Splat.c80ed4b2.png"
   },
   {
-    "revision": "c67118ec09ff597a7d83a2a4b45906a1",
-    "url": "/static/media/StartupVicHomepage.c67118ec.png"
+    "revision": "85e22978b4ca96a888904eef960d31af",
+    "url": "/static/media/StartupVicHomepage.85e22978.png"
   },
   {
     "revision": "9d767e1025ef7c51cf043a9d2d644f61",
